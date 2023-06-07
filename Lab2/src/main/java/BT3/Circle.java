@@ -19,6 +19,11 @@ public class Circle implements GeometricObject{
     }
 
     @Override
+    public double tinhTrungBinh(){
+        return 0;
+    }
+
+    @Override
     public String toString() {
         return String.format("Circle[radius = %f]", radius);
     }
